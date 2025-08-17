@@ -1,0 +1,48 @@
+body{
+    font-family: 'Outfit';
+    background-color:  hsl(212, 45%, 89%);
+    margin: 0;                  /* 余白をなくす */
+    height: 100vh;              /* 画面の高さいっぱい */
+    display: flex;              /* Flexboxを有効化 */
+    justify-content: center;    /* 横方向の中央配置 */
+    align-items: center;        /* 縦方向の中央配置 */
+}
+.hight_light{
+    font-weight: 700; /* 太字 */
+    color: hsl(218, 44%, 22%);
+    text-align: center;
+}
+.normal{
+    font-size: 12px;
+    color: hsl(218, 44%, 22%);
+    font-weight: 400;
+    display: flex;              /* Flexboxを有効化 */
+    justify-content: center;    /* 横方向の中央配置 */
+    align-items: center;        /* 縦方向の中央配置 */
+    text-align: center;
+}
+img{
+    width: 200px;
+    height: 200px;
+    display: flex;              /* Flexboxを有効化 */
+    justify-content: center;    /* 横方向の中央配置 */
+    align-items: center;        /* 縦方向の中央配置 */
+    border-radius: 16px;                 /* 角丸 */
+}
+
+img{width:100%; border-radius:12px; display:block;}
+
+.card{
+      background-color: white;
+      border-radius: 16px;                 /* 角丸 */
+      padding: 24px;                       /* 余白 */
+      box-shadow:
+        0 10px 20px rgba(0,0,0,.08),
+        0 2px 6px rgba(0,0,0,.04);         /* ふんわり影 */
+      max-width: 200px;                    /* 横幅上限 */
+      max-height: 350px;
+      width: min(90vw, 375px);             /* スマホ対応 */
+      line-height: 1.6;
+      border: 1px solid rgba(0,0,0,.04);   /* 薄い境界線（好みで） */
+      text-align: center;
+}
